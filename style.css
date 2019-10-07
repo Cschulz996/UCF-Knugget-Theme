@@ -1,6 +1,9 @@
 /* 
 Theme Name: AA Tech Main Theme
+Theme URI: https://github.com/Cschulz996/aatechtheme
 Author: Carson Schulz 
+Author URI: https://carsons.me/
+Description: The AA Tech Main Wordpress theme is a theme that was created using the UCF Athena Bootstrap theme in order to fit within the web standard that was previously created using raw HTML. Using the Bootstrap framework, helpful classes and a grid system make creating a responsive, mobile-first website easy. The documentation pertaining to the Athena Framework can be found at https://ucf.github.io/Athena-Framework/.
 */
 /* Header */
 .ucf-main-header {
@@ -9,7 +12,6 @@ Author: Carson Schulz
     min-height: 410px;
     align-items: center;
     background-color: #000;
-    background-image: url('assets/images/3.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,15 +25,12 @@ Author: Carson Schulz
 .shadow-sm {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
-
 .shadow {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
-
 .shadow-lg {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
-
 .shadow-none {
     box-shadow: none !important;
 }

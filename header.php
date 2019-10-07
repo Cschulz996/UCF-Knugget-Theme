@@ -5,7 +5,7 @@
 </head>
 <body <?php body_class();?>>
 
-<div class="w-100 ucf-main-header">
+<div class="w-100 ucf-main-header" id="ucf-main-header-bg">
     <div class="w-100 px-5">
         <span class="ucf-main-header-text"><?php echo get_bloginfo('name');?></span>
     </div>

@@ -10,16 +10,14 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac ex tempus nibh pharetra pellentesque id vel ante. Quisque ac est nulla. Etiam elementum bibendum neque sed dictum. Nunc gravida vitae ipsum blandit commodo. Morbi lacinia metus eu metus egestas rutrum. Nullam in blandit quam, eu molestie dui.</p>
             </div>
             <div class="col-md-6 text-center">
-                <img src="http://placegoat.com/300/300" class="img-fluid shadow-sm" alt="Something">
+                <img src="http://placegoat.com/300/300" class="img-fluid shadow-sm rounded" alt="Something">
             </div>
         </div>
     </div>
 </div>
 
 <main class="py-5 container">
-
-
-    <?php the_content();?>
+<?php the_content();?>
 <?php endwhile; endif;?>
 </main>
 <?php get_footer();?>
