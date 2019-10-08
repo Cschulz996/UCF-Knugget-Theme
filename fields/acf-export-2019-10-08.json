@@ -1,0 +1,89 @@
+[
+    {
+        "key": "group_5d9ccf9161421",
+        "title": "Page Options",
+        "fields": [
+            {
+                "key": "field_5d9ccfcf412bc",
+                "label": "Leading Text",
+                "name": "leading_text",
+                "type": "textarea",
+                "instructions": "Displays a short excerpt about the page below the title on the page.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Displays a short excerpt about the page below the title on the page.",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": "wpautop"
+            },
+            {
+                "key": "field_5d9cd0ca2f6ff",
+                "label": "Leading Image",
+                "name": "leading_image",
+                "type": "image",
+                "instructions": "Upload an image that will go to the right of the title. Min size is 100x100. Max size is 300x300",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": 100,
+                "min_height": 100,
+                "min_size": "",
+                "max_width": 300,
+                "max_height": 300,
+                "max_size": "",
+                "mime_types": "jpg,JPG,png,PNG"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "default"
+                }
+            ],
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template-fullwidth.php"
+                }
+            ],
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template-narrow.php"
+                }
+            ],
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template-fullwidthdev.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

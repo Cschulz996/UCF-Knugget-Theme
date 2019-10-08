@@ -1,4 +1,17 @@
 <?php
+//  Initialize theme and add features
+add_theme_support('menus');
+
+register_nav_menus(
+    array(
+        'top_menu'      => __('Top Menu', 'theme'),
+        'footer_menu'   => __('Footer Menu', 'theme'),
+    )
+);
+
+add_theme_support( 'post-thumbnails' );
+set_post_thumbnail_size( 1200, 9999 );
+
 
 //  All stylesheets go here
 function load_styles() {
@@ -34,16 +47,6 @@ function load_aascripts() {
 }
 add_action('wp_enqueue_scripts', 'load_aascripts');
 
-
-//  Menus and the locations
-add_theme_support('menus');
-
-register_nav_menus(
-    array(
-        'top_menu'      => __('Top Menu', 'theme'),
-        'footer_menu'   => __('Footer Menu', 'theme'),
-    )
-);
 
 function add_menu_link_class( $atts, $item, $args ) {
     if (property_exists($args, 'link_class')) {
