@@ -29,8 +29,11 @@ function load_aascripts() {
 
     wp_register_script('Header Images', get_template_directory_uri() . '/assets/js/header.js', '', null, true);
     wp_enqueue_script('Header Images');
+    $headerImgDir = array('headerimg_directory_uri' => get_stylesheet_directory_uri());
+    wp_localize_script('Header Images', 'directory_uri', $headerImgDir);
 }
 add_action('wp_enqueue_scripts', 'load_aascripts');
+
 
 //  Menus and the locations
 add_theme_support('menus');

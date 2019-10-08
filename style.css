@@ -38,3 +38,46 @@ Description: The AA Tech Main Wordpress theme is a theme that was created using 
 .page-jumbo {
     min-height: 300px;
 }
+/* Footer */
+.ucf-footer-main {
+    background-color: #3e3e3e;
+    color: white;
+}
+.ucf-footer-main a {
+    color: white;
+    text-decoration: none;
+}
+.ucf-footer-main a:hover {
+    text-decoration: underline;
+}
+.ucf-footer-main p {
+    font-size: 12px;
+    margin-bottom: .5em;
+}
+.ucf-footer-main h2 {
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.ucf-footer-main .dropdown-menu a {
+    color: black;
+    text-decoration: none;
+}
+.ucf-footer-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.ucf-footer-main li {
+    display: inline;
+    font-size: 12px;
+}
+.ucf-footer-main li::after {
+    content: " | ";
+    padding: 0 .5rem;
+}
+.ucf-footer-main li:last-child::after {
+    content: none;
+}
