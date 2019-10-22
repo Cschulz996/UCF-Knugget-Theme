@@ -26,6 +26,7 @@
                 'menu_class'        => 'navbar-nav',
                 'container'         => 'div',
                 'container_class'   => 'collapse navbar-collapse',
+                'container_id'      => 'mainNav',
                 'list_item_class'   => 'nav-item',
                 'link_class'        => 'nav-link'
             )
