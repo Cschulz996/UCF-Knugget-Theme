@@ -66,4 +66,10 @@ function add_menu_list_item_class($classes, $item, $args) {
 }
 add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
 
+//  Add support for dropdown menus
+function register_navwalker(){
+	require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
+}
+add_action( 'after_setup_theme', 'register_navwalker' );
+
 ?>

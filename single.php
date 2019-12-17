@@ -4,8 +4,9 @@
 
 <?php require_once("inc/jumbotron.php"); ?>
 
-<main class="py-5 container">
+<div class="py-5 container-knugget">
 <?php the_content();?>
 <?php endwhile; endif;?>
+</div>
 </main>
 <?php get_footer();?>

@@ -8,10 +8,15 @@
 <main id="main" class="site-main" role="main">
 <?php if(have_posts()) : while(have_posts()) : the_post();?>
 
-<?php require_once("inc/jumbotron.php"); ?>
+<?php 
+if( get_field('include_jumbotron') === 'Yes') {
+    require_once("inc/jumbotron.php"); 
+}
+?>
 
-<main class="py-5 container-fluid">
+<div class="py-5 container-fluid">
 <?php the_content();?>
 <?php endwhile; endif;?>
+</div>
 </main>
 <?php get_footer();?>

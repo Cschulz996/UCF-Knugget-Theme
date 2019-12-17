@@ -4,7 +4,7 @@ Theme URI: https://github.com/Cschulz996/UCF-Knugget-Theme
 Author: Carson Schulz 
 Author URI: https://carsons.me/
 Description: The UCF Knugget theme is a theme built with the needs of the smaller departments in mind. The theme was built using the UCF Athena Bootstrap theme to present a stable grid framework that can be used to create sections and other helpful tools. Using the Bootstrap framework, helpful classes and a grid system make creating a responsive, mobile-first website easy. The documentation pertaining to the Athena Framework can be found at https://ucf.github.io/Athena-Framework/.
-Version: 1.3.2
+Version: 1.0
 Text Domain: ucfknuggettheme
 */
 /* Header */
@@ -40,6 +40,31 @@ Text Domain: ucfknuggettheme
 .page-jumbo {
     min-height: 150px;
 }
+.container-knugget {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80vw;
+}
+.ucf-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.ucf-section-01 {
+    background-image: url('assets/images/sections/01.jpg');
+}
+.ucf-section-02 {
+    background-image: url('assets/images/sections/02.jpg');
+}
+.ucf-section-03 {
+    background-image: url('assets/images/sections/03.jpg');
+}
+.ucf-section-04 {
+    background-image: url('assets/images/sections/04.jpg');
+}
 /* Footer */
 .ucf-footer-main {
     background-color: #3e3e3e;
@@ -63,23 +88,10 @@ Text Domain: ucfknuggettheme
     margin-bottom: 12px;
     text-transform: uppercase;
 }
-.ucf-footer-main .dropdown-menu a {
+.ucf-footer-nav .dropdown-menu a {
     color: black;
     text-decoration: none;
 }
-.ucf-footer-main ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.ucf-footer-main li {
-    display: inline;
+.ucf-footer-nav li {
     font-size: 12px;
-}
-.ucf-footer-main li::after {
-    content: " | ";
-    padding: 0 .5rem;
-}
-.ucf-footer-main li:last-child::after {
-    content: none;
 }

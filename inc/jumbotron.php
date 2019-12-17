@@ -1,5 +1,5 @@
 <div class="bg-faded py-4 page-jumbo d-flex align-items-center">
-    <div class="container">
+    <div class="container-knugget">
         <div class="row align-items-center">
         <?php if( get_field('leading_image') ): ?>
             <div class="col-md-6">

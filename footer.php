@@ -5,15 +5,21 @@
         </div>
     </div>
     <?php if(has_nav_menu('footer_menu')):?>
-    <div class="row justify-content-center mt-2 text-center px-1">
-        <?php 
-        wp_nav_menu(
-            array(
-                'theme_location'    => 'footer_menu',
-                'container'         => ''
-            )
-        );
-        ?>
+    <div class="row mt-2">
+        <div class="col-12">
+            <?php 
+            wp_nav_menu(
+                array(
+                    'theme_location'    => 'footer_menu',
+                    'container'         => '',
+                    'depth'             => '2',
+                    'menu_class'        => 'nav justify-content-center ucf-footer-nav dropup flex-wrap',
+                    'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                    'walker'            => new WP_Bootstrap_Navwalker()
+                    )
+            );
+            ?>
+        </div>
     </div>
     <?php endif; ?>
     <div class="row mt-3 text-center">

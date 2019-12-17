@@ -4,6 +4,31 @@
         "title": "Page Options",
         "fields": [
             {
+                "key": "field_5df90afcde676",
+                "label": "Include jumbotron?",
+                "name": "include_jumbotron",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Yes": "Yes",
+                    "No": "No"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
                 "key": "field_5d9ccfcf412bc",
                 "label": "Leading Text",
                 "name": "leading_text",
