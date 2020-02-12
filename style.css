@@ -4,14 +4,14 @@ Theme URI: https://github.com/Cschulz996/UCF-Knugget-Theme
 Author: Carson Schulz 
 Author URI: https://carsons.me/
 Description: The UCF Knugget theme is a theme built with the needs of the smaller departments in mind. The theme was built using the UCF Athena Bootstrap theme to present a stable grid framework that can be used to create sections and other helpful tools. Using the Bootstrap framework, helpful classes and a grid system make creating a responsive, mobile-first website easy. The documentation pertaining to the Athena Framework can be found at https://ucf.github.io/Athena-Framework/.
-Version: 1.0
+Version: 1.1
 Text Domain: ucfknuggettheme
 */
 /* Header */
 .ucf-main-header {
     display: flex;
     flex-wrap: wrap;
-    min-height: 410px;
+    height: 400px;
     align-items: center;
     background-color: #000;
     background-size: cover;
